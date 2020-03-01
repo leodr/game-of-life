@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
-import getNextGameState from '../getNextGameState';
-import initializeGame from '../initializeGame';
-import Tile from '../Tile';
+import getNextGameState from '../logic/getNextGameState';
+import initializeGame from '../logic/initializeGame';
+import Tile from './App/Tile';
 
 const x = 50;
 const y = 50;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const StateContext = React.createContext(undefined);
+const StateContext = React.createContext<any>(undefined);
 
 interface props {
     children?: any;
