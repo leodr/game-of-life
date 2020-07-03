@@ -2,24 +2,12 @@
     "name": "react-game-of-life",
     "version": "0.1.0",
     "private": true,
-    "dependencies": {
-        "@testing-library/jest-dom": "^4.2.4",
-        "@testing-library/react": "^9.3.2",
-        "@testing-library/user-event": "^7.1.2",
-        "react": "^16.13.0",
-        "react-dom": "^16.13.0",
-        "react-scripts": "3.4.0",
-        "styled-components": "^5.0.1"
-    },
     "scripts": {
-        "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "format:files": "destiny -w src"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
+        "format:components": "destiny -w src/components",
+        "start": "react-scripts start",
+        "test": "react-scripts test"
     },
     "browserslist": {
         "production": [
@@ -33,10 +21,22 @@
             "last 1 safari version"
         ]
     },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "dependencies": {
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-scripts": "3.4.1",
+        "styled-components": "^5.1.1"
+    },
     "devDependencies": {
-        "@types/styled-components": "^5.0.1",
-        "destiny": "^0.3.1",
-        "prettier": "^1.19.1",
-        "typescript": "^3.8.3"
+        "@types/react": "^16.9.41",
+        "@types/react-dom": "^16.9.8",
+        "@types/styled-components": "^5.1.0",
+        "destiny": "^0.7.0",
+        "prettier": "^2.0.5",
+        "prettier-plugin-packagejson": "^2.2.5",
+        "typescript": "^3.9.6"
     }
 }
