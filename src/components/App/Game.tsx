@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
+import getNextGameState from '../../logic/getNextGameState';
 import initializeGame from '../../logic/initializeGame';
 import Tile from './Game/Tile';
 
