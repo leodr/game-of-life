@@ -2,7 +2,7 @@
     "name": "react-game-of-life",
     "version": "1.0.0",
     "description": "A React implementation of Conway's Game Of Life.",
-    "homepage": "https://react-game-of-life.vercel.app/",
+    "homepage": "https://github.com/leodr/react-game-of-life",
     "bugs": {
         "url": "https://github.com/leodr/react-game-of-life/issues"
     },
