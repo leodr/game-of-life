@@ -1,7 +1,16 @@
 {
     "name": "react-game-of-life",
-    "version": "0.1.0",
-    "private": true,
+    "version": "1.0.0",
+    "description": "A React implementation of Conway's Game Of Life.",
+    "homepage": "https://react-game-of-life.vercel.app/",
+    "bugs": {
+        "url": "https://github.com/leodr/react-game-of-life/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/leodr/react-game-of-life.git"
+    },
+    "license": "MIT",
     "scripts": {
         "build": "react-scripts build",
         "eject": "react-scripts eject",
@@ -38,5 +47,8 @@
         "prettier": "^2.0.5",
         "prettier-plugin-packagejson": "^2.2.5",
         "typescript": "^3.9.6"
+    },
+    "engines": {
+        "node": ">=8.10"
     }
 }
