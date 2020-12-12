@@ -1,6 +1,5 @@
-import React from 'react';
-import styled, { createGlobalStyle } from 'styled-components';
-import Game from './App/Game';
+import type { AppProps } from 'next/app';
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     html { font-family: 'Inter', sans-serif; }
@@ -16,23 +15,13 @@ const GlobalStyle = createGlobalStyle`
     }
 `;
 
-const Root = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100vw;
-`;
-
-function App() {
+function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
-            <Root>
-                <Game />
-            </Root>
             <GlobalStyle />
+            <Component {...pageProps} />
         </>
     );
 }
 
-export default App;
+export default MyApp;

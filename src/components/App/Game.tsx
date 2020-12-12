@@ -37,7 +37,7 @@ const Game = () => {
 
     useEffect(() => {
         const x = setInterval(() => {
-            setGame(s => getNextGameState(s));
+            setGame((s) => getNextGameState(s));
         }, 100);
 
         return () => clearInterval(x);
@@ -45,7 +45,7 @@ const Game = () => {
 
     return (
         <GameConainer x={x} y={y}>
-            {game.map(e => e.map(e => <Tile alive={e} />))}
+            {game.map((e) => e.map((e, i) => <Tile key={i} alive={e} />))}
         </GameConainer>
     );
 };
