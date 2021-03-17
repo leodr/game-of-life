@@ -50,7 +50,8 @@ yarn run start
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/leodr/react-game-of-life/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check
+[issues page](https://github.com/leodr/react-game-of-life/issues).
 
 ## Show your support
 
@@ -58,5 +59,5 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2020 [Leo Driesch](https://github.com/leodr).<br />
-This project is [MIT](https://github.com/leodr/react-game-of-life/blob/master/LICENSE) licensed.
+Copyright © 2020 [Leo Driesch](https://github.com/leodr).<br /> This project is
+[MIT](https://github.com/leodr/react-game-of-life/blob/master/LICENSE) licensed.
