@@ -1,63 +1,84 @@
-<h1 align="center">Welcome to react-game-of-life 👋</h1>
-<p>
-  <a href="https://www.npmjs.com/package/react-game-of-life" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/react-game-of-life.svg">
-  </a>
-  <img src="https://img.shields.io/badge/node-%3E%3D8.10-blue.svg" />
-  <a href="https://github.com/leodr/react-game-of-life#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/leodr/react-game-of-life/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/leodr/react-game-of-life/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/leodr/react-game-of-life" />
-  </a>
-  <a href="https://twitter.com/leodriesch" target="_blank">
-    <img alt="Twitter: leodriesch" src="https://img.shields.io/twitter/follow/leodriesch.svg?style=social" />
-  </a>
+<h1 align="center">react-game-of-life</h1>
+
+<p align="center">
+    <strong>A React implementation of Conway's Game of Life with Next.js and CSS Modules.</strong>
 </p>
- 
-> A React implementation of Conway's Game Of Life.
 
-### 🏠 [Homepage](https://github.com/leodr/react-game-of-life)
+<p align="center"> 
+    <a href="https://github.com/leodr/react-game-of-life/blob/main/LICENSE">
+        <img alt="MIT License" src="https://img.shields.io/github/license/leodr/react-game-of-life?color=%23A855F7&labelColor=%2327272A&style=for-the-badge">
+    </a>
+    <a href="https://twitter.com/leodriesch">
+        <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/leodriesch?color=%2338BDF8&labelColor=%2327272A&style=for-the-badge">
+    </a>
+</p>
 
-### ✨ [Demo](https://react-game-of-life.vercel.app/)
+<p align="center">
+    <a href="#-screenshots"><b>Screenshots</b></a>
+    <span>  •  </span>
+    <a href="#-development"><b>Development</b></a>
+    <span>  •  </span>
+    <a href="#-contribute"><b>Contribute</b></a>  
+</p>
 
-## Prerequisites
+---
 
--   node >=8.10
+The [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), also
+known simply as Life, is a cellular automaton devised by the British
+mathematician John Horton Conway in 1970.
 
-## Install
+It is a zero-player game, meaning that its evolution is determined by its
+initial state, requiring no further input.
 
-```sh
-yarn install
-```
+This is a web implementation of Conway's Game of Life using React, Next.js and
+CSS modules.
 
-## Usage
+<br>
 
-```sh
-yarn run start
-```
+## ❯ Screenshots
 
-## Author
+![GIF demo of the website](./assets/demo.gif)
 
-👤 **Leo Driesch**
+<br>
 
--   Website: https://leodriesch.com/
--   Twitter: [@leodriesch](https://twitter.com/leodriesch)
--   Github: [@leodr](https://github.com/leodr)
+## ❯ Development
 
-## 🤝 Contributing
+1. **Requirements**
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check
-[issues page](https://github.com/leodr/react-game-of-life/issues).
+    You should have an LTS version of [Node.js](https://nodejs.org/en/)
+    installed installed as well as
+    [Yarn Classic](https://classic.yarnpkg.com/en/).
 
-## Show your support
+2. **Install the dependencies**
 
-Give a ⭐️ if this project helped you!
+    Run `yarn install` to install all neccesary packages.
 
-## 📝 License
+3. **Run the application**
 
-Copyright © 2020 [Leo Driesch](https://github.com/leodr).<br /> This project is
-[MIT](https://github.com/leodr/react-game-of-life/blob/master/LICENSE) licensed.
+    Start the development server by running `yarn dev`.
+
+<br>
+
+## ❯ Contribute
+
+If you think you have any ideas that could benefit the project, feel free to
+create a pull request!
+
+<br>
+
+---
+
+<p align="center">
+    <sub>
+        Project by Leo Driesch, released under <a href="https://github.com/leodr/react-game-of-life/blob/main/LICENSE">MIT license</a>.
+    </sub>
+</p>
+<p align="center">
+    <a href="https://twitter.com/leodriesch">
+        <img alt="Leo Driesch on Twitter" src="./assets/twitter.svg">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/leodr">
+        <img alt="Leo Driesch on GitHub" src="./assets/github.svg">
+    </a>
+</p>
