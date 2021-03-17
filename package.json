@@ -15,7 +15,8 @@
         "build": "next build",
         "dev": "next dev",
         "lint": "eslint src/ --ext js,jsx,ts,tsx",
-        "start": "next start"
+        "start": "next start",
+        "format": "prettier . --write --ignore-path .gitignore"
     },
     "dependencies": {
         "next": "^10.0.9",
