@@ -1,6 +1,6 @@
+import { Game } from 'components/game/Game';
 import Head from 'next/head';
-import Game from '../components/App/Game';
-import styles from '../styles/index.module.css';
+import styles from 'styles/index.module.css';
 
 export default function Index() {
     return (

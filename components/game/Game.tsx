@@ -1,12 +1,12 @@
+import { getNextGameState } from 'lib/getNextGameState';
+import { initializeGame } from 'lib/initializeGame';
 import React, { useEffect, useState } from 'react';
-import getNextGameState from '../../logic/getNextGameState';
-import initializeGame from '../../logic/initializeGame';
 import styles from './game.module.css';
 
 const x = 50;
 const y = 50;
 
-const Game = () => {
+export function Game() {
     const [game, setGame] = useState<boolean[][]>(initializeGame(x, y));
 
     useEffect(() => {
@@ -14,21 +14,21 @@ const Game = () => {
             setGame((s) => getNextGameState(s));
         }, 100);
 
-        return () => clearInterval(x);
-    });
+        return () => {
+            return clearInterval(x);
+        };
+    }, []);
 
     return (
         <div className={styles.gameContainer}>
-            {game.map((e) =>
-                e.map((e, i) => (
+            {game.map((rows) =>
+                rows.map((tile, index) => (
                     <div
-                        key={i}
-                        className={`${styles.tile} ${e ? styles.alive : ''}`}
+                        key={index}
+                        className={`${styles.tile} ${tile ? styles.alive : ''}`}
                     />
                 ))
             )}
         </div>
     );
-};
-
-export default Game;
+}

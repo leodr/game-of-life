@@ -1,8 +1,8 @@
-const getAliveNeighborCount = (
+function getAliveNeighborCount(
     game: boolean[][],
     x: number,
     y: number
-): number => {
+): number {
     const neighborList = [];
 
     neighborList.push(game[x - 1]?.[y - 1]);
@@ -15,9 +15,9 @@ const getAliveNeighborCount = (
     neighborList.push(game[x + 1]?.[y + 1]);
 
     return neighborList.reduce((acc, e) => (e ? acc + 1 : acc), 0);
-};
+}
 
-const getNextGameState = (currentState: boolean[][]): boolean[][] => {
+export function getNextGameState(currentState: boolean[][]): boolean[][] {
     const newState: boolean[][] = [];
 
     for (let x = 0; x < currentState.length; x++) {
@@ -48,6 +48,4 @@ const getNextGameState = (currentState: boolean[][]): boolean[][] => {
     }
 
     return newState;
-};
-
-export default getNextGameState;
+}
