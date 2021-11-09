@@ -46,16 +46,15 @@ CSS modules.
 1. **Requirements**
 
     You should have an LTS version of [Node.js](https://nodejs.org/en/)
-    installed installed as well as
-    [Yarn Classic](https://classic.yarnpkg.com/en/).
+    installed.
 
 2. **Install the dependencies**
 
-    Run `yarn install` to install all neccesary packages.
+    Run `npm install` to install all neccesary packages.
 
 3. **Run the application**
 
-    Start the development server by running `yarn dev`.
+    Start the development server by running `npm run dev`.
 
 <br>
 
