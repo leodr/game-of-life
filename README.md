@@ -26,7 +26,7 @@ CSS modules.
 
 ## Showcase
 
-![GIF demo of the website](./assets/demo.gif)
+![GIF demo of the website](./readme-assets/demo.gif)
 
 <br>
 
